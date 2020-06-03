@@ -1,0 +1,22 @@
+body {
+    background-image: url(../images/texture.png);
+    padding: 10px;
+}
+
+.cBox{
+    
+    width: 98%;
+    background-color: gray;
+    /* height: 500px; */
+   border: solid;
+   margin-top: 10px;
+    
+}
+
+.nav{ 
+position: relative;}
+.container{
+    padding:16px;
+    font-size: 10px;
+    
+}

@@ -1,0 +1,19 @@
+@import url("nav.css"); 
+@import url("body.css");
+button{
+    background-color: orangered;
+    color: white;
+    padding: 14px 20px;
+    /* margin: 40px 0; */
+    border: none;
+    cursor: pointer;
+    width: 100%;
+   
+}
+#form{
+    width: 98%;
+    border: solid;
+    height: 200px;
+    margin-top: 10px;
+    
+}

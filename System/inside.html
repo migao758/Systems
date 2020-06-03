@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generic System</title>
+    <link rel="stylesheet" href="styles/profile.css">
+   <style> #form { display: none;}
+   #hide {display: block;}
+
+</style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="ele">
+           
+        
+        <h1 class="logo">System Profile</h1>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" name="" id="toggle">
+        
+        <div class="menu">
+            <a href="inside.html">My Profile</a>
+            <a href="events.html">Manage your Events</a>
+            <a href="about.html">About our System</a>
+            
+        </div>
+    </div>
+    </div>
+    <div class="cBox" id="hide">
+<div class="container" >
+<h1>Hello ?PHP-UserName?</h1>
+<p>You currently have no created events</p>
+<button onclick="formm()" >Create Event</button>
+</div>
+    </div>
+
+<div class="cBox" id="hide">
+    <div class="container">
+    <h1>Hello ?PHP-UserName?</h1>
+    <p>Here are your current events:</p>
+    
+    </div>
+
+    </div>
+
+
+    <div id="form">
+<h1>Form for creating event goes here</h1>
+    </div>
+    <script>
+        function formm() {
+          document.getElementById("form").style.display = "block";
+          document.getElementById("hide").style.display = "none";
+        }
+        </script>
+    </body>
+    </html>

@@ -1,19 +1,5 @@
-@import url("nav.css");
-body {
-    background-image: url(../images/texture.png);
-}
-
-.containerlogin{
-    width: 90%;
-margin: 10px auto;
-background-color: gray;
-border-radius:20px;
-
-
-}
-
-.nav{ 
-position: relative;}
+@import url("nav.css"); 
+@import url("body.css");
 .container{
     padding:16px;
 }
