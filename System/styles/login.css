@@ -1,64 +1,57 @@
 @import url("nav.css");
-
-* {box-sizing: border-box}
-
-/* Add padding to containers */
-.container {
-  padding: 16px;
+body {
+    background-image: url(../images/texture.png);
 }
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 0px 0 0px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+.containerlogin{
+    width: 90%;
+margin: 10px auto;
+background-color: gray;
+border-radius:20px;
+
+
 }
 
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
+.nav{ 
+position: relative;}
+.container{
+    padding:16px;
 }
-
-/* Overwrite default styles of hr */
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 5px;
+.text{
+    width: 100%;
+    padding: 12px 20px;
+   
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
-
-/* Set a style for the submit/register button */
-.registerbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-.registerbtn:hover {
-  opacity:1;
-}
-
-/* Add a blue text color to links */
-a {
-  color: dodgerblue;
-}
-
-/* Set a grey background color and center the text of the "sign in" section */
-.signin {
-  background-color: #f1f1f1;
-  text-align: center;
-}
-label{
+.uNp {
     float: left;
-    
-}
-b{
     font-size: 20px;
-   display: inline;
+    padding-top: 10px;
+}
+button{
+    background-color: orangered;
+    color: white;
+    padding: 14px 20px;
+    margin: 40px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover{
+    opacity: 0.8;
+}
+.avatarBox{
+    text-align: center;
+    margin: 24 0 12px 0;
+    padding-top: 10px;
+}
+.avatar{
+    border: solid;
+width: 40%;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: ;
+    
 }
