@@ -24,7 +24,7 @@ html, body{
 }
 .menu a {
     text-decoration: none;
-    color: gray;
+    color :black;
     margin: 0 0;
     line-height: 70px;
 }
@@ -53,11 +53,11 @@ label {
     .menu a{
         clear: right;
         display: block;
-        border-bottom: 1px solid red;
+        border: solid;
         border-radius: 10px;
         margin: 5px;
         padding: 0;
-        background-color: black;
+        background-color : goldenrod;
     }
     #toggle:checked + .menu {
         display: block;

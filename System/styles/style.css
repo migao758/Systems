@@ -1,117 +1,36 @@
-/* NAVIGATION */
-@import url("nav.css");
-/* SECTION 1  */
+@import url("nav.css"); 
+@import url("body.css"); 
 
-.one {
-    background-image: url(../images/bg1.jpg);
+.box {display: inline-block;
+padding-left: 20px;
+padding-right: 25px;
 }
-
-.container {
-width: 92%;
-margin: 0 auto;
-}
-
-.title{
-font-size: 2.1rem;
-text-align: center;
-}
-
-.title span {
-    font-weight: 300;
-    display: block;
-}
-
-/* BUTTONS */
-
-.button{
-    
-    font-size: 18px;
-    text-decoration: none;
-    border-width: 2px;
+.button {
+    background-color: orangered;
     color: white;
-    padding: 20px 35px;
-    display: inline-block;
-    border-radius: 10px;
-    background-color: orange;
-   
-}
-/* SECTION 2  */
-
-
-.container2{
-    z-index: -2;
-    position: absolute;
+    padding: 14px 20px;
+    margin: 40px 0;
+    border: none;
+    cursor: pointer;
     width: 100%;
-    margin: 0 auto;
-   
-    height: 400px;
-    top: 50%;
-}
-.container2 img{
-    position: absolute;
-    width: 100%;
-    height: 450px;
-}
-.containerIn {
-    padding: 0;
-    
-    /* border: solid; */
-    position: absolute;
-    padding: 10px;
-    top: 15%;
+    text-decoration: none;
     
 }
-
-.container2 h1,p {
-   text-align: center;
-   color: white;
-}
-.box{
-    /* border: solid; */
-    padding-left:5px;
-    width: 100px;
-    height: 80px;
-    display: inline-block;
-    
-    
-}
-.box img {
-    width: 50px;
-    height: 50px;
-    padding-left: 45px;
-    padding-bottom: 20px;
-    margin: 0;
-}
-.box p {
-    
- position: absolute;
- bottom: 0;
- color: white;
- padding: 1px 0 0 30px;
- /* padding-left: 25px */
- 
-;
-    
-}
-footer {
-    position: relative;
-    border: solid;
-    height: 140px;
-    width:98%;
+.cBox {background-color: gray);
+text-align: center;}
+.cBoxF{
     background-color: black;
-    top: 40%;
-    
+    width: 98%;
+    border: solid;
+    margin-top: 10px;
+    height: 100px;
 }
-footer h1 {
+.cBoxF h1 {
     color: white;
     text-align: center;
 }
-footer p {
-    display: inline;
-    
-}
 @media only screen and (max-width : 500px){
-    /* NAVIGATION */
+    
     
 }
   

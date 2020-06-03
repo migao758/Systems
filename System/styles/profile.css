@@ -11,9 +11,25 @@ button{
    
 }
 #form{
+    
     width: 98%;
     border: solid;
-    height: 200px;
+    background-color: gray;
     margin-top: 10px;
     
+    
 }
+.submit {
+    
+    padding: 14px 20px;
+    background-color: orangered;
+    width: 90%;
+    margin-bottom: 10px;
+
+    
+}
+.center {text-align: center;}
+#eCap{
+    background-color: white;
+}
+form{padding-left: 10px;}

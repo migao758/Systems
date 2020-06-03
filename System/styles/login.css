@@ -41,3 +41,8 @@ width: 40%;
     
     
 }
+.container a {
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}

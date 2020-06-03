@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generic System</title>
     <link rel="stylesheet" href="styles/profile.css">
-   <style> #form { display: none;}
+   <!-- <style> #form { display: none;}
    #hide {display: block;}
 
-</style>
+</style> -->
 </head>
 
 <body>
@@ -48,7 +48,29 @@
 
 
     <div id="form">
-<h1>Form for creating event goes here</h1>
+<h1>Form</h1>
+<form action="">
+<h2>Event Name :<input type="text" id="nEvent" name="nEvent" value="Enter Name" required></h2>
+<h2>Event Date :<input type="date" id="eDate" name="eDate" required></h2>
+<h2>Time :<input type="time" id="eTime" name="time" placeholder="hrs:mins" pattern="^([0-1]?[0-9]|2[0-4]):([0-5][0-9])(:[0-5][0-9])?$" class="inputs time" required></h2>
+<h2>Venue Location :<br><input type="text" id="eLoc" name="eLoc" value="Street Address">
+    <input type="text" id="eLoc2" name="eLoc2" value="Address Line 2" required>
+    <input type="text" id="eLoc3" name="eLoc3" value="City" required>
+    <input type="text" id="eLoc4" name="eLoc4" value="State / Province" required>
+    <input type="text" id="eLoc5" name="eLoc5" value="Postal / Zip Code" required></h2>
+<h2>Maximum Capacity :<select name="eCap" id="eCap">
+    <option value="1>200">1 > 200</option>
+    <option value="200>500">200 > 500</option>
+    <option value="500>1000">500 > 1000</option>
+    <option value="1000>more">1000 > more</option>
+  </select></h2>
+  <div class="center">
+  <input class="submit" type="submit" value="Submit">
+</div>
+
+</form>
+
+
     </div>
     <script>
         function formm() {
